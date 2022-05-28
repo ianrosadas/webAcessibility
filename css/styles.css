@@ -1,0 +1,98 @@
+
+body {
+    background-color: #E8F9FD;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    color: #2155CD;
+    
+}
+
+p.text {
+    color: #2155CD;
+    display:inline-flex;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    left: 50%;
+    right: 50%;
+}
+
+li.menu {
+    display: inline;
+    padding: 10px;
+}
+
+li.footer {
+    display: inline;
+    padding-left: 10px;
+    color: white;
+}
+
+a.menu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.home {
+    text-decoration: none;
+    padding: 10px;
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.menu {
+    background-color: #0AA1DD;
+    padding: 10px;
+}
+
+ul.footer {
+    padding: 10px;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0AA1DD;
+    color: white;
+    text-align: center;
+}
+
+img.capa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.header {
+    width: 10%;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: #2155CD;
+}
+
+.who { 
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    color: #2155CD;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+/* https://colorhunt.co/palette/e8f9fd79dae80aa1dd2155cd */

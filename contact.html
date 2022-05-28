@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <div>
+        <ul class="menu">
+            <li class="menu"><img class="header" src="images/simbolo.jpg"></li>
+            <li class="menu"><a class="home" href="main.html">Home</a></li>
+            <li class="menu"><a class="menu" href="quem.html">Quem somos</a></li>
+            <li class="menu"><a class="menu" href="history.html">História</a></li>
+            <li class="menu"><a class="menu" href="parceiros.html">Parceiros</a></li>
+            <li class="menu"><a class="menu" href="contact.html">Contatos</a></li>
+        </ul>
+    </div>
+    <br>
+    <h1>Entre nosso contato: </h1>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label class="required" for="name">Seu nome:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <br>
+        <div class="row">
+          <label class="required" for="email">Seu email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <br>
+        <div class="row">
+          <label class="required" for="message">Sua mensagem:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+        <br>
+          
+          <input id="submit_button" type="submit" value="Send email" />
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     <div>
+        <ul class="footer">
+            <li class="footer">@Copyright</li>
+            <li class="footer">Web developer</li>
+            <li class="footer">Ian Nicolau</li>
+            <li class="footer">Nosso contato</li>
+        </ul>
+    </div>
+</body>
+</html>
